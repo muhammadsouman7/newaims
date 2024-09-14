@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== Font Awesome ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- ===== Bootstrap Css ===== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- ===== Animate On Scroll ===== -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- ===== Css File ===== -->
+    <link rel="icon" href="logo.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+
+    <title>NewAims Pharmaceuticals</title>
+</head>
+
+<body onload="loader()">
+    <!-- ===== Pre-Loader ===== -->
+    <div id="loader" class="loader">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <!-- End-Pre-Loader -->
+
+    <!-- ===== Navigation Bar ===== -->
+    <nav class="navbar sticky-top navbar-expand-lg">
+        <div class="container-fluid" data-aos="fade-down" data-aos-offset="100" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
+            <a class="navbar-brand text-light" href="index.html">
+                <img src="logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                <span>
+                    NewAims
+                </span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon light">
+                <i class="fa-solid fa-bars" style="color: #fff; font-size: 30px;"></i>
+            </span>
+          </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav navbar-nav-first mx-auto text-center">
+                    <li class="nav-item ">
+                        <a class="nav-link active " aria-current="page " href="index.html ">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="about.html ">About Us</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="service.html ">Services</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="product.html ">Products</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="team.html ">Team</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="contact.html ">Contact Us</a>
+                    </li>
+                </ul>
+
+                <ul class="nav d-flex justify-content-center text-center list-unstyled py-2">
+                    <li class="list-inline-item ">
+                        <a href="# " class="btn-floating btn-sm text-light " style="font-size: 20px; ">
+                            <i class="fa-brands fa-facebook "></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item ">
+                        <a href="# " class="btn-floating btn-sm text-light " style="font-size: 20px; ">
+                            <i class="fa-brands fa-instagram "></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item ">
+                        <a href="# " class="btn-floating btn-sm text-light " style="font-size: 20px; ">
+                            <i class="fa-brands fa-twitter "></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item ">
+                        <a href="# " class="btn-floating btn-sm text-light " style="font-size: 20px; ">
+                            <i class="fa-brands fa-linkedin "></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End-Navigation-Bar -->
+
+    <!-- ===== Introduction ===== -->
+    <section class="intro-section text-light d-flex justify-content-center align-items-center ">
+        <div class="container ">
+            <div class="text-center " data-aos="zoom-in-down " data-aos-offset="100 " data-aos-delay="50 " data-aos-duration="2000 " data-aos-easing="ease-in-out " data-aos-mirror="true " data-aos-once="true ">
+                <h1 class="mt-5 ">NewAims Pharmaceuticals</h1>
+                <h2>Healthy Aims, Healthy Life!</h2>
+                <p class="mt-4 ">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptate soluta quisquam culpa earum vitae odit non fugit labore doloremque!
+                </p>
+                <div class="container departments my-4 " data-aos="zoom-in-up " data-aos-offset="100 " data-aos-delay="50 " data-aos-duration="2000 " data-aos-easing="ease-in-out " data-aos-mirror="true " data-aos-once="true ">
+                    <div class="row justify-content-center ">
+                        <div class="col-lg-4 col-md-6 g-0 ">
+                            <div class="card neurology ">
+                                <div class="icon-box ">
+                                    <i class="fa-solid fa-brain "></i>
+                                </div>
+                                <div class="details text-light ">
+                                    <h3 class="d-flex justify-content-center ">
+                                        Neurology Care
+                                    </h3>
+                                    <p class="text-center ">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi modi ad dignissimos magnam vero rerum!
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End-Card -->
+                        </div>
+                        <!-- End-Col -->
+
+                        <div class="col-lg-4 col-md-6 g-0 ">
+                            <div class="card cardiology ">
+                                <div class="icon-box ">
+                                    <i class="fa-solid fa-heart-pulse "></i>
+                                </div>
+                                <div class="details text-light ">
+                                    <h3 class="d-flex justify-content-center ">
+                                        Cardiology Care
+                                    </h3>
+                                    <p class="text-center ">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi modi ad dignissimos magnam vero rerum!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End-Col -->
+
+                        <div class="col-lg-4 col-md-6 g-0 ">
+                            <div class="card urology ">
+                                <div class="icon-box ">
+                                    <i class="fa-solid fa-bacteria "></i>
+                                </div>
+                                <div class="details text-light ">
+                                    <h3 class="d-flex justify-content-center ">
+                                        Urology Care
+                                    </h3>
+                                    <p class="text-center ">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi modi ad dignissimos magnam vero rerum!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End-Col -->
+
+                    </div>
+                    <!-- End-Col -->
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End-Intro-Section -->
+
+    <!-- ===== About-Us Section ===== -->
+
+    <section id="about-us ">
+        <div class="about-us text-light ">
+            <div class="container " data-aos="zoom-in " data-aos-offset="100 " data-aos-delay="50 " data-aos-duration="2000 " data-aos-easing="ease-in-out " data-aos-mirror="true " data-aos-once="true ">
+                <div class="title text-center ">
+                    <h2 class="text-light ">
+                        About Us
+                    </h2>
+                </div>
+                <div class="row ">
+                    <div class="col-lg-4 ">
+                        <img src="43071.jpg" class="img-fluid " alt="my-image " style="border-radius: 10px; ">
+                    </div>
+                    <!-- End-Col -->
+
+                    <div class="col-lg-8 about-details ">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto soluta nisi deleniti, voluptatum perspiciatis tempora iste, cumque corrupti quis, ut iure dolores autem repudiandae illo enim. Molestias, omnis id harum, minima tempora beatae fugit
+                            magnam similique quos maxime sapiente fuga iusto laudantium! Cupiditate quisquam officiis et nobis, error esse, blanditiis fugit quam voluptatibus deserunt quae ut sint facilis hic voluptates animi rerum consequatur. Fuga eveniet
+                            rerum repudiandae accusantium illo nisi. Itaque omnis possimus id illum odit. Nisi accusamus soluta, eum non, dolore magni ipsam dolorem eaque labore, est consequuntur magnam natus nemo? Fugit expedita minima id. Dolorum nulla
+                            excepturi ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero harum ducimus voluptatibus est nam asperiores, accusantium labore, reiciendis, debitis pariatur nihil ullam consectetur perspiciatis?
+                            Ipsa, distinctio illum.
+                        </p>
+                    </div>
+                    <!-- End-Col -->
+
+                </div>
+                <!-- End-Row -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- End-About-Us-Section -->
+
+    <!-- ===== Testimonials Section ===== -->
+    <section id="testimonials ">
+        <div class="home-testimonials testimonials ">
+            <div class="container " data-aos="zoom-in " data-aos-offset="100 " data-aos-delay="50 " data-aos-duration="2000 " data-aos-easing="ease-in-out " data-aos-mirror="true " data-aos-once="true ">
+                <div class="title text-center text-light ">
+                    <h2>
+                        Our Testimonials
+                    </h2>
+                </div>
+                <div class="row justify-content-center ">
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="testimonial-box ">
+                            <div class="img-box ">
+                                <img src="doctor-1.jpg" alt=" ">
+                            </div>
+                            <div class="details text-center text-light ">
+                                <h4>Dr. Arif Malik</h4>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate vel sequi ut nisi error laudantium, eum sint architecto natus repudiandae!
+                                </p>
+                            </div>
+
+                            <div class="rating ">
+                                <i class="fa-solid fa-star "></i> <i class="fa-solid fa-star "></i> <i class="fa-solid fa-star "></i> <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End-Col -->
+
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="testimonial-box ">
+                            <div class="img-box ">
+                                <img src="doctor-2.jpg" alt=" ">
+                            </div>
+                            <div class="details text-center text-light ">
+                                <h4>Dr. Yasir Shahzad</h4>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate vel sequi ut nisi error laudantium, eum sint architecto natus repudiandae!
+                                </p>
+                            </div>
+
+                            <div class="rating ">
+                                <i class="fa-solid fa-star "></i> <i class="fa-solid fa-star "></i> <i class="fa-solid fa-star "></i> <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End-Col -->
+
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="testimonial-box ">
+                            <div class="img-box ">
+                                <img src="doctor-3.jfif" alt=" ">
+                            </div>
+                            <div class="details text-center text-light ">
+                                <h4>Dr. Adil Rasheed</h4>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate vel sequi ut nisi error laudantium, eum sint architecto natus repudiandae!
+                                </p>
+                            </div>
+
+                            <div class="rating ">
+                                <i class="fa-solid fa-star "></i> <i class="fa-solid fa-star "></i> <i class="fa-solid fa-star "></i> <i class="fa-solid fa-star "></i>
+                                <i class="fa-solid fa-star "></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End-Col -->
+                </div>
+                <!-- End-Row -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- End-Testimonial-Section -->
+
+    <!-- ===== Products Section ===== -->
+    <section id="products ">
+        <div class="products ">
+            <div class="container " data-aos="zoom-in " data-aos-offset="100 " data-aos-delay="50 " data-aos-duration="2000 " data-aos-easing="ease-in-out " data-aos-mirror="true " data-aos-once="true ">
+                <div class="title text-center text-light ">
+                    <h2>
+                        Our Products
+                    </h2>
+                </div>
+                <div class="row justify-content-center ">
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-card py-5 ">
+                            <div class="img-box ">
+                                <img src="product-img.jpg" class="img-fluid " alt=" ">
+                            </div>
+                            <div class="title text-center text-light ">
+                                <h4>Danshen</h4>
+                            </div>
+
+                            <div class="details text-center ">
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                </p>
+                                <a href="product.html ">See Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End-Col -->
+
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-card py-5 ">
+                            <div class="img-box ">
+                                <img src="product-img-2.webp" class="img-fluid " alt=" ">
+                            </div>
+                            <div class="title text-center text-light ">
+                                <h4>Cue-10</h4>
+                            </div>
+
+                            <div class="details text-center ">
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                </p>
+                                <a href="product.html ">See Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End-Col -->
+
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="product-card py-5 ">
+                            <div class="img-box ">
+                                <img src="product-img-3.jfif" class="img-fluid " alt=" ">
+                            </div>
+                            <div class="title text-center text-light ">
+                                <h4>Ticoline</h4>
+                            </div>
+
+                            <div class="details text-center ">
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                </p>
+                                <a href="product.html ">See Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End-Col -->
+                </div>
+                <!-- End-Row -->
+
+            </div>
+        </div>
+    </section>
+    <!-- End-Product-Section -->
+
+    <!-- ===== Services Section ===== -->
+    <section id="services ">
+        <div class="services ">
+            <div class="container " data-aos="zoom-in " data-aos-offset="100 " data-aos-delay="50 " data-aos-duration="2000 " data-aos-easing="ease-in-out " data-aos-mirror="true " data-aos-once="true ">
+                <div class="title text-center text-light ">
+                    <h2>
+                        Our Services
+                    </h2>
+                </div>
+                <div class="row justify-content-center ">
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="service-container text-center ">
+                            <div class="service-box ">
+                                <div class="icon text-center mb-4 ">
+                                    <i class="fas fa-envelope-open-text "></i>
+                                </div>
+                                <div class="details ">
+                                    <h3>Contract Manufacturing</h3>
+                                    <p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End-Col -->
+
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="service-container text-center ">
+                            <div class="service-box ">
+                                <div class="icon text-center mb-4 ">
+                                    <i class="fas fa-envelope-open-text "></i>
+                                </div>
+                                <div class="details ">
+                                    <h3>Supply Chain Management</h3>
+                                    <p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End-Col -->
+
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="service-container text-center ">
+                            <div class="service-box ">
+                                <div class="icon text-center mb-4 ">
+                                    <i class="fas fa-envelope-open-text "></i>
+                                </div>
+                                <div class="details ">
+                                    <h3>Quality Assurance and Control</h3>
+                                    <p>Lorem elementum Sed congue nisl dolorSed congue nisl dolor Lorem Sed congue nisl dolorSed.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End-Col -->
+                </div>
+                <!-- End-Row -->
+
+            </div>
+        </div>
+    </section>
+    <!-- End-Services-Section -->
+
+    <!-- ===== Footer ===== -->
+    <footer class=" footer bg-dark text-white pt-5 pb-4 ">
+        <div class="container text-center text-md-left " data-aos="fade-up " data-aos-offset="100 " data-aos-delay="50 " data-aos-duration="2000 " data-aos-easing="ease-in-out " data-aos-mirror="true " data-aos-once="true ">
+            <div class="row text-center text-md-left ">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 ">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-light ">
+                        NewAims Pharmaceuticals
+                    </h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum architecto iure non, error cupiditate impedit ducimus maxime harum velit.
+                    </p>
+                </div>
+                <!-- End-Col -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 ">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-light ">
+                        Useful Links
+                    </h5>
+                    <p>
+                        <a href="index.html " class="text-white " style="text-decoration: none; ">Home</a>
+                    </p>
+                    <p>
+                        <a href="about.html " class="text-white " style="text-decoration: none; ">About Us</a>
+                    </p>
+                    <p>
+                        <a href="service.html " class="text-white " style="text-decoration: none; ">Services</a>
+                    </p>
+                </div>
+                <!-- End-Col -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 ">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-light ">
+                        Products
+                    </h5>
+                    <p>
+                        <a href="product.html " class="text-white " style="text-decoration: none; ">Danshen</a>
+                    </p>
+                    <p>
+                        <a href="product.html " class="text-white " style="text-decoration: none; ">Cue-10</a>
+                    </p>
+                    <p>
+                        <a href="product.html " class="text-white " style="text-decoration: none; ">Ticoline</a>
+                    </p>
+                </div>
+                <!-- End-Col -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 ">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-light ">
+                        Contact
+                    </h5>
+                    <p>
+                        <i class="fa-solid fa-house mx-2 "></i>Islamabad, Pakistan
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone mx-2 "></i>+92 123 4567890
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope mx-2 "></i>newaims@gmail.com
+                    </p>
+                </div>
+                <!-- End-Col -->
+
+            </div>
+            <!-- End-Row -->
+            <hr class="mb-4 ">
+            <div class="row align-items-center ">
+                <div class="col-md-7 col-lg-8 ">
+                    <p>
+                        Copyright ©2022 All rights reserved by:
+                        <a href="# " class="text-light " style="text-decoration: none; ">
+                                NewAims Pharmaceuticals
+                        </a>
+                    </p>
+                </div>
+                <!-- End-Col -->
+
+                <div class="col-md-5 col-lg-4 ">
+                    <div class="text-center text-md-right ">
+                        <ul class="list-unstyled list-inline ">
+                            <li class="list-inline-item ">
+                                <a href="# " class="btn-floating btn-sm text-light " style="font-size: 20px; ">
+                                    <i class="fa-brands fa-facebook "></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item ">
+                                <a href="# " class="btn-floating btn-sm text-light " style="font-size: 20px; ">
+                                    <i class="fa-brands fa-instagram "></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item ">
+                                <a href="# " class="btn-floating btn-sm text-light " style="font-size: 20px; ">
+                                    <i class="fa-brands fa-twitter "></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item ">
+                                <a href="# " class="btn-floating btn-sm text-light " style="font-size: 20px; ">
+                                    <i class="fa-brands fa-linkedin "></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End-Col -->
+
+            </div>
+            <!-- End-Row -->
+        </div>
+    </footer>
+    <!-- End-Footer -->
+
+    <!-- ===== JavaScript Links ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js "></script>
+</body>
+
+</html>
